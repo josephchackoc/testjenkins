@@ -6,6 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh '''
+                echo "some change"
                 env
                 node --version
                 '''
